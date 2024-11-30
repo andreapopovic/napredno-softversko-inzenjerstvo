@@ -1,0 +1,14 @@
+{
+  "node": {
+    "a18c98b702eb7938ab6b2bc1f7ef83c81af1ad36": {
+      "workers": {
+        "app/meals/share/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fandreapopovic%2FDesktop%2Fprojects%2FUdemyNextJs%2FRestaurant%2Fapp%2Fapi%2Factions.js%22%2C%5B%22shareMeal%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/meals/share/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "+yxtJladULkuFvnszc9NeFQZEZHZHFr5MDWtA6eRXlk="
+}
