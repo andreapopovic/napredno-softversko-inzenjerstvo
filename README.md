@@ -1,1 +1,1 @@
-Opis projekata nalaze se unutar njihovoh fajlova "README.md" 
+Opis projekata nalaze se unutar njihovih fajlova "README.md" 
