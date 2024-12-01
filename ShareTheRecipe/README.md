@@ -2,7 +2,7 @@ Ova aplikacija predstavlja modernu aplikaciju koja korisnicima omogućava da del
 
 # Pokretanje projekta i koraci za instalaciju:
 
-1. Kloniranje repozitorijuma: git clone <URL vašeg repozitorijuma>
+1. Kloniranje repozitorijuma
 2. Instalacija zavisnosti: npm install
 3. Pokretanje aplikacije: npm run dev
 
