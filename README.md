@@ -1,3 +1,42 @@
+# NextJS 
+
+Next.js je open-source React framework za izradu web aplikacija. Razvijen je od strane kompanije Vercel i dizajniran da olakša proces kreiranja performantnih i skalabilnih aplikacija koristeći React. Next.js proširuje mogućnosti React-a dodavanjem funkcionalnosti koje olakšavaju rad na projektima svih veličina.
+
+# Ključne karakteristike Next.js-a
+1. Server-Side Rendering (SSR): Renderuje stranice na serveru i šalje gotov HTML klijentu, čime poboljšava brzinu učitavanja i SEO.
+2. Static Site Generation (SSG): Generiše statične stranice u trenutku build-a koje se mogu posluživati brzo i bez potrebe za serverom.
+3. Incremental Static Regeneration (ISR): Omogućava regeneraciju pojedinačnih stranica čak i nakon što su build-ovane, što omogućava ažuriranje statičkog sadržaja bez ponovnog build-a celog sajta.
+4. File-based routing: Struktura fajlova automatski definiše rute aplikacije, olakšavajući navigaciju i organizaciju koda.
+5. API rute: Omogućava kreiranje backend endpoint-a direktno unutar Next.js aplikacije.
+6. Optimizacija slika: Next.js nudi komponentu next/image, koja automatski optimizuje slike za bolje performanse.
+7. Code Splitting: Automatski razdvaja JavaScript u manje delove koji se učitavaju prema potrebi, čime se smanjuje veličina aplikacije i poboljšavaju performanse.
+
+# Kada izabrati NextJS?
+Next.js je odličan izbor za rešavanje mnogih problema u modernom razvoju veb aplikacija. Evo nekoliko ključnih problema za koje je Next.js posebno koristan:
+
+1. Brzina učitavanja i SEO optimizacija
+- Problem: Klasične SPA aplikacije (poput React-a) oslanjaju se na klijentsko renderovanje, što može dovesti do sporijeg učitavanja sadržaja i lošije SEO optimizacije.
+- Rešenje: Next.js omogućava server-side rendering (SSR) i static site generation (SSG), što znači da sadržaj može biti unapred generisan ili renderovan na serveru pre nego što stigne do korisnika, čime se povećava brzina učitavanja stranice i poboljšava SEO.
+2. Kompleksni ruting
+- Problem: U React-u, konfiguracija rutiranja zahteva dodatne biblioteke kao što je React Router, što može postati komplikovano kod većih aplikacija.
+- Rešenje: Next.js dolazi sa ugrađenim file-based routing sistemom, gde struktura fajlova automatski definiše rute aplikacije, čineći organizaciju jednostavnijom.
+3. Optimizacija performansi
+- Problem: Ručna optimizacija performansi može biti izazovna, posebno kod velikih aplikacija sa mnogo dinamičkih i statičkih resursa.
+- Rešenje: Next.js automatski optimizuje resurse, uključujući sliku (next/image), i koristi code splitting kako bi smanjio veličinu JavaScript paketa učitanog na strani klijenta.
+4. Dinamički sadržaj i API integracija
+- Problem: Kada je potrebno kombinovati dinamički sadržaj sa unapred generisanim stranicama, ručno podešavanje često postaje komplikovano.
+- Rešenje: Next.js omogućava lako kombinovanje SSG i SSR pristupa sa incremental static regeneration (ISR), što omogućava ažuriranje statičkih stranica bez potrebe za ponovnim generisanjem celog sajta.
+5. Full-stack razvoj
+- Problem: Većini frontend framework-ova nedostaje ugrađena podrška za backend funkcionalnosti.
+- Rešenje: Next.js pruža ugrađene API rute, što znači da možete kreirati API endpoint-e direktno unutar aplikacije bez potrebe za dodatnim alatima ili serverima.
+7. Glatka integracija sa alatima i tehnologijama
+- Problem: Integracija modernih alata i biblioteka često zahteva dodatnu konfiguraciju.
+-Rešenje: Next.js se bez problema integriše sa Tailwind CSS, GraphQL, Appwrite, better-sqlite3 i drugim alatima, čime se ubrzava razvoj.
+
+Next.js je posebno koristan za aplikacije kao što su blogovi, e-commerce platforme, poslovni sajtovi, dashboard aplikacije i svi projekti gde su važni performanse i SEO. Upravo zato sam zato izabrala da moji primeri budu blog aplikacija i aplikacija za deljenje recepata. Za obe aplikacije Next.js pruža idealnu osnovu zbog mogućnosti SSR/SSG i lakoće upravljanja dinamičkim sadržajem. 
+
+--------------------------------------------------------------------------------------------------------------------------------
+
 # TechBlogApp
 Ova aplikacija predstavlja modernu CRUD aplikaciju koja omogućava korisnicima da kreiraju, uređuju, brišu i čitaju blogove na teme poput mašinskog učenja, frameworks-a, i drugih relevantnih tehnoloških oblasti. Aplikacija je osmišljena kao alat za tehnološku zajednicu koji omogućava deljenje znanja, povezivanje i organizaciju informacija na jednoj platformi. Cilj ove aplikacije je da pokaze upotrebu NextJS-a.
 
