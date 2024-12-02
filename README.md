@@ -37,10 +37,9 @@ Appwrite je izabran jer nudi sveobuhvatnu podršku za backend funkcionalnosti:
 Next.js je idealan izbor za aplikacije ovog tipa zbog:
 
 1. Server-side rendering (SSR): Pruža bolje performanse i SEO optimizaciju, što je ključno za blog platforme. Upravo zato je izabrana ova tema.
-2. Static site generation (SSG): Omogućava statičko generisanje stranica za povećanje brzine učitavanja.
-3. API rute: Ugrađeni backend API-ji za povezivanje sa Appwrite-om i dodatnu funkcionalnost.
-4. Jednostavna integracija: Laka integracija sa alatima poput Appwrite-a i podrška za moderne tehnologije (React, TypeScript).
-5. Pogodan za CRUD aplikacije: Next.js omogućava brzu i jednostavnu implementaciju CRUD operacija zahvaljujući:
+2. API rute: Ugrađeni backend API-ji za povezivanje sa Appwrite-om i dodatnu funkcionalnost.
+3. Jednostavna integracija: Laka integracija sa alatima poput Appwrite-a i podrška za moderne tehnologije (React, TypeScript).
+4. Pogodan za CRUD aplikacije: Next.js omogućava brzu i jednostavnu implementaciju CRUD operacija zahvaljujući:
    - Ugrađenim API rutama koje omogućavaju kreiranje RESTful endpointa.
    - Efikasnom upravljanju podacima i renderingom na strani servera ili klijenta, u zavisnosti od potreba.
    - Podršci za modularnost, što olakšava održavanje i proširenje koda.
@@ -92,10 +91,9 @@ Nakon uspesnog pokretanja aplikacija će biti dostupna na: http://localhost:3000
 Next.js je idealan izbor za ovu aplikaciju zbog:
 
 1. Server-side rendering (SSR): Poboljšane performanse i SEO optimizacija, što omogućava lakše pronalaženje recepata putem pretraživača.
-2. Static site generation (SSG): Brže učitavanje stranica za recepte koji se retko menjaju.
-3. API rute: Omogućavaju lako rukovanje backend logikom, kao što su dodavanje recepata u bazu ili preuzimanje podataka.
-4. Podrška za rad sa slikama: Next.js pruža ugrađeni alat za optimizaciju slika, što je ključno za brzo i efikasno učitavanje recepata sa slikama.
-5. Modularnost: Pruža strukturu koja olakšava upravljanje kodom i omogućava lako dodavanje novih funkcionalnosti.
+2. API rute: Omogućavaju lako rukovanje backend logikom, kao što su dodavanje recepata u bazu ili preuzimanje podataka.
+3. Podrška za rad sa slikama: Next.js pruža ugrađeni alat za optimizaciju slika, što je ključno za brzo i efikasno učitavanje recepata sa slikama.
+4. Modularnost: Pruža strukturu koja olakšava upravljanje kodom i omogućava lako dodavanje novih funkcionalnosti.
 
 # Zašto je korišćen better-sqlite3?
 
